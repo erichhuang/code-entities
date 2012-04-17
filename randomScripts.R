@@ -6,3 +6,10 @@ ggheat2Layer <- Code(list(name = "ggheat2.R",
 ggheat2Layer <- createEntity(ggheat2Layer)
 ggheat2Layer <- addFile(ggheat2Layer, "ggheat2.R")
 ggheat2Layer <- storeEntity(ggheat2Layer)
+
+# SAVE CODE ENTITY TWO "MULTIPLOT"
+multiPlotLayer <- Code(list(name = "mulitPlot.R",
+                          parentId = 274060))
+multiPlotLayer <- createEntity(multiPlotLayer)
+multiPlotLayer <- addFile(multiPlotLayer, "multiPlot.R")
+multiPlotLayer <- storeEntity(multiPlotLayer)
