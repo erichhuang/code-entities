@@ -13,3 +13,10 @@ multiPlotLayer <- Code(list(name = "mulitPlot.R",
 multiPlotLayer <- createEntity(multiPlotLayer)
 multiPlotLayer <- addFile(multiPlotLayer, "multiPlot.R")
 multiPlotLayer <- storeEntity(multiPlotLayer)
+
+# SAVE CODE ENTITY THREE "GGKM"
+ggkmLayer <- Code(list(name = "ggkm.R",
+                            parentId = 274060))
+ggkmLayer <- createEntity(ggkmLayer)
+ggkmLayer <- addFile(ggkmLayer, "ggkm.R")
+ggkmLayer <- storeEntity(ggkmLayer)
